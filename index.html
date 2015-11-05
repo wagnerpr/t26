@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test</title>
+ <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+function onBodyLoad()
+    {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+    /* When this function is called, PhoneGap has been initialized and is ready to roll */
+    function onDeviceReady() {
+         window.location('http://www.endicasistema.com.br/endicaloja/loja', '_blank', 'location=no','toolbar=no');
+    }
+    </script>    
+</head>
+
+<body onload="onBodyLoad()">
+<!--<a href="#" onClick="window.open('http://www.google.com' , '_blank', 'enableViewportScale=yes', 'location=no' )">test
+</a>-->
+</body>
+</html>
